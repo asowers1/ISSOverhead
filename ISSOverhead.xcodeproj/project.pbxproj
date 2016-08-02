@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35532A6CD619336CD888FA8A /* Pods_ISSOverheadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2266DA473EB66EE3B6FEED6 /* Pods_ISSOverheadUITests.framework */; };
+		490BD7C11D4FE171005D0604 /* ISSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7C01D4FE171005D0604 /* ISSLocation.swift */; };
+		490BD7C31D4FE359005D0604 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7C21D4FE359005D0604 /* MapViewViewController.swift */; };
+		490BD7C51D4FE362005D0604 /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7C41D4FE362005D0604 /* LocationsTableViewController.swift */; };
+		490BD7C71D4FE36B005D0604 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7C61D4FE36B005D0604 /* LocationDetailsViewController.swift */; };
+		490BD7C91D4FE375005D0604 /* MapViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7C81D4FE375005D0604 /* MapViewViewModel.swift */; };
+		490BD7CB1D4FE382005D0604 /* LocationsTableViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7CA1D4FE382005D0604 /* LocationsTableViewViewModel.swift */; };
+		490BD7CD1D4FE38C005D0604 /* LocationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7CC1D4FE38C005D0604 /* LocationDetailViewModel.swift */; };
+		490BD7CF1D4FF613005D0604 /* ISSPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7CE1D4FF613005D0604 /* ISSPass.swift */; };
+		490BD7D11D4FF9F2005D0604 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7D01D4FF9F2005D0604 /* Friend.swift */; };
+		490BD7D31D4FFFDB005D0604 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490BD7D21D4FFFDB005D0604 /* MapKit.framework */; };
+		490BD7D61D5006A5005D0604 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7D51D5006A5005D0604 /* Scheduler.swift */; };
+		490BD7D81D5008BC005D0604 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7D71D5008BC005D0604 /* Settings.swift */; };
+		490BD7E31D50EB3C005D0604 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7E21D50EB3C005D0604 /* Notifier.swift */; };
+		490BD7E51D50EB73005D0604 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BD7E41D50EB73005D0604 /* Image.swift */; };
 		493348411D4FC752003847CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493348401D4FC752003847CD /* AppDelegate.swift */; };
-		493348431D4FC752003847CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493348421D4FC752003847CD /* ViewController.swift */; };
 		493348461D4FC752003847CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493348441D4FC752003847CD /* Main.storyboard */; };
 		493348481D4FC752003847CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493348471D4FC752003847CD /* Assets.xcassets */; };
 		4933484B1D4FC752003847CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493348491D4FC752003847CD /* LaunchScreen.storyboard */; };
 		493348561D4FC752003847CD /* ISSOverheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493348551D4FC752003847CD /* ISSOverheadTests.swift */; };
 		493348611D4FC752003847CD /* ISSOverheadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493348601D4FC752003847CD /* ISSOverheadUITests.swift */; };
+		493348741D4FCA55003847CD /* MainStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493348731D4FCA55003847CD /* MainStoryboard.swift */; };
+		493348781D4FD774003847CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493348771D4FD774003847CD /* CoreLocation.framework */; };
+		8544E284F3522E6CF1D97B01 /* Pods_ISSOverhead.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBE244C85916252AF181D53 /* Pods_ISSOverhead.framework */; };
+		F182513B25BFCAA1AE347288 /* Pods_ISSOverheadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA7F4AC2A53D35C6B95654A /* Pods_ISSOverheadTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D72E9309C674CDB8C8B337A /* Pods-ISSOverheadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSOverheadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISSOverheadTests/Pods-ISSOverheadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13FBB8731B54B6288E95295F /* Pods-ISSOverheadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSOverheadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISSOverheadUITests/Pods-ISSOverheadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BDB5D21237FEE4144175A9D /* Pods-ISSOverheadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSOverheadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISSOverheadUITests/Pods-ISSOverheadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		490BD7C01D4FE171005D0604 /* ISSLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSLocation.swift; sourceTree = "<group>"; };
+		490BD7C21D4FE359005D0604 /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		490BD7C41D4FE362005D0604 /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		490BD7C61D4FE36B005D0604 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
+		490BD7C81D4FE375005D0604 /* MapViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewViewModel.swift; sourceTree = "<group>"; };
+		490BD7CA1D4FE382005D0604 /* LocationsTableViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewViewModel.swift; sourceTree = "<group>"; };
+		490BD7CC1D4FE38C005D0604 /* LocationDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailViewModel.swift; sourceTree = "<group>"; };
+		490BD7CE1D4FF613005D0604 /* ISSPass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSPass.swift; sourceTree = "<group>"; };
+		490BD7D01D4FF9F2005D0604 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		490BD7D21D4FFFDB005D0604 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		490BD7D51D5006A5005D0604 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		490BD7D71D5008BC005D0604 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		490BD7E21D50EB3C005D0604 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		490BD7E41D50EB73005D0604 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		4933483D1D4FC752003847CD /* ISSOverhead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSOverhead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493348401D4FC752003847CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		493348421D4FC752003847CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		493348451D4FC752003847CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		493348471D4FC752003847CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4933484A1D4FC752003847CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +81,14 @@
 		4933485C1D4FC752003847CD /* ISSOverheadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSOverheadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493348601D4FC752003847CD /* ISSOverheadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSOverheadUITests.swift; sourceTree = "<group>"; };
 		493348621D4FC752003847CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493348731D4FCA55003847CD /* MainStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainStoryboard.swift; sourceTree = "<group>"; };
+		493348771D4FD774003847CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CA7F4AC2A53D35C6B95654A /* Pods_ISSOverheadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISSOverheadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7600868B35BF338E43B10461 /* Pods-ISSOverheadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSOverheadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISSOverheadTests/Pods-ISSOverheadTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DBE244C85916252AF181D53 /* Pods_ISSOverhead.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISSOverhead.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A336D499914D5374692D8EB6 /* Pods-ISSOverhead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSOverhead.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISSOverhead/Pods-ISSOverhead.release.xcconfig"; sourceTree = "<group>"; };
+		B2266DA473EB66EE3B6FEED6 /* Pods_ISSOverheadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISSOverheadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FD41DF0A587778F4345382 /* Pods-ISSOverhead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISSOverhead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISSOverhead/Pods-ISSOverhead.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490BD7D31D4FFFDB005D0604 /* MapKit.framework in Frameworks */,
+				493348781D4FD774003847CD /* CoreLocation.framework in Frameworks */,
+				8544E284F3522E6CF1D97B01 /* Pods_ISSOverhead.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F182513B25BFCAA1AE347288 /* Pods_ISSOverheadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +114,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35532A6CD619336CD888FA8A /* Pods_ISSOverheadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490BD7D41D50069C005D0604 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				490BD7D51D5006A5005D0604 /* Scheduler.swift */,
+				490BD7D71D5008BC005D0604 /* Settings.swift */,
+				490BD7E21D50EB3C005D0604 /* Notifier.swift */,
+				490BD7E41D50EB73005D0604 /* Image.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		493348341D4FC752003847CD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +139,8 @@
 				493348541D4FC752003847CD /* ISSOverheadTests */,
 				4933485F1D4FC752003847CD /* ISSOverheadUITests */,
 				4933483E1D4FC752003847CD /* Products */,
+				89F97E1F278F3F66FDCA4D7C /* Pods */,
+				D276FD22413178C6D2367E8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +157,11 @@
 		4933483F1D4FC752003847CD /* ISSOverhead */ = {
 			isa = PBXGroup;
 			children = (
+				490BD7D41D50069C005D0604 /* Components */,
+				493348701D4FCA32003847CD /* Views */,
+				4933486F1D4FCA27003847CD /* ViewModels */,
+				4933486E1D4FCA21003847CD /* Models */,
 				493348401D4FC752003847CD /* AppDelegate.swift */,
-				493348421D4FC752003847CD /* ViewController.swift */,
-				493348441D4FC752003847CD /* Main.storyboard */,
 				493348471D4FC752003847CD /* Assets.xcassets */,
 				493348491D4FC752003847CD /* LaunchScreen.storyboard */,
 				4933484C1D4FC752003847CD /* Info.plist */,
@@ -125,6 +187,79 @@
 			path = ISSOverheadUITests;
 			sourceTree = "<group>";
 		};
+		4933486E1D4FCA21003847CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				490BD7C01D4FE171005D0604 /* ISSLocation.swift */,
+				490BD7D01D4FF9F2005D0604 /* Friend.swift */,
+				490BD7CE1D4FF613005D0604 /* ISSPass.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4933486F1D4FCA27003847CD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				490BD7C81D4FE375005D0604 /* MapViewViewModel.swift */,
+				490BD7CA1D4FE382005D0604 /* LocationsTableViewViewModel.swift */,
+				490BD7CC1D4FE38C005D0604 /* LocationDetailViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		493348701D4FCA32003847CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				493348721D4FCA44003847CD /* ViewControllers */,
+				493348711D4FCA39003847CD /* Storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		493348711D4FCA39003847CD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				493348441D4FC752003847CD /* Main.storyboard */,
+				493348731D4FCA55003847CD /* MainStoryboard.swift */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		493348721D4FCA44003847CD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				490BD7C21D4FE359005D0604 /* MapViewViewController.swift */,
+				490BD7C41D4FE362005D0604 /* LocationsTableViewController.swift */,
+				490BD7C61D4FE36B005D0604 /* LocationDetailsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89F97E1F278F3F66FDCA4D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD41DF0A587778F4345382 /* Pods-ISSOverhead.debug.xcconfig */,
+				A336D499914D5374692D8EB6 /* Pods-ISSOverhead.release.xcconfig */,
+				0D72E9309C674CDB8C8B337A /* Pods-ISSOverheadTests.debug.xcconfig */,
+				7600868B35BF338E43B10461 /* Pods-ISSOverheadTests.release.xcconfig */,
+				2BDB5D21237FEE4144175A9D /* Pods-ISSOverheadUITests.debug.xcconfig */,
+				13FBB8731B54B6288E95295F /* Pods-ISSOverheadUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D276FD22413178C6D2367E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490BD7D21D4FFFDB005D0604 /* MapKit.framework */,
+				493348771D4FD774003847CD /* CoreLocation.framework */,
+				8DBE244C85916252AF181D53 /* Pods_ISSOverhead.framework */,
+				4CA7F4AC2A53D35C6B95654A /* Pods_ISSOverheadTests.framework */,
+				B2266DA473EB66EE3B6FEED6 /* Pods_ISSOverheadUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493348651D4FC752003847CD /* Build configuration list for PBXNativeTarget "ISSOverhead" */;
 			buildPhases = (
+				38E62A00E7D17FA48ED40E7F /* [CP] Check Pods Manifest.lock */,
 				493348391D4FC752003847CD /* Sources */,
 				4933483A1D4FC752003847CD /* Frameworks */,
 				4933483B1D4FC752003847CD /* Resources */,
+				DDBB93A8D09CD159BB2DD4C6 /* [CP] Embed Pods Frameworks */,
+				3457F3321F3F337C9CBFE980 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493348681D4FC752003847CD /* Build configuration list for PBXNativeTarget "ISSOverheadTests" */;
 			buildPhases = (
+				36B9329B5A9A2F6CB70BE59D /* [CP] Check Pods Manifest.lock */,
 				4933484D1D4FC752003847CD /* Sources */,
 				4933484E1D4FC752003847CD /* Frameworks */,
 				4933484F1D4FC752003847CD /* Resources */,
+				1C3B116419B771FE539973BB /* [CP] Embed Pods Frameworks */,
+				A565937370FECE0EFE48459F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4933486B1D4FC752003847CD /* Build configuration list for PBXNativeTarget "ISSOverheadUITests" */;
 			buildPhases = (
+				43A1F48F5FDF4CC986803CF3 /* [CP] Check Pods Manifest.lock */,
 				493348581D4FC752003847CD /* Sources */,
 				493348591D4FC752003847CD /* Frameworks */,
 				4933485A1D4FC752003847CD /* Resources */,
+				B24ECDD74C180E83584B3B76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +336,14 @@
 				TargetAttributes = {
 					4933483C1D4FC752003847CD = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					493348501D4FC752003847CD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -251,13 +402,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C3B116419B771FE539973BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSOverheadTests/Pods-ISSOverheadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3457F3321F3F337C9CBFE980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSOverhead/Pods-ISSOverhead-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B9329B5A9A2F6CB70BE59D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38E62A00E7D17FA48ED40E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43A1F48F5FDF4CC986803CF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A565937370FECE0EFE48459F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSOverheadTests/Pods-ISSOverheadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24ECDD74C180E83584B3B76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSOverheadUITests/Pods-ISSOverheadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBB93A8D09CD159BB2DD4C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISSOverhead/Pods-ISSOverhead-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		493348391D4FC752003847CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493348431D4FC752003847CD /* ViewController.swift in Sources */,
+				490BD7CF1D4FF613005D0604 /* ISSPass.swift in Sources */,
+				490BD7C71D4FE36B005D0604 /* LocationDetailsViewController.swift in Sources */,
+				490BD7D81D5008BC005D0604 /* Settings.swift in Sources */,
+				490BD7CD1D4FE38C005D0604 /* LocationDetailViewModel.swift in Sources */,
+				490BD7E51D50EB73005D0604 /* Image.swift in Sources */,
+				490BD7C51D4FE362005D0604 /* LocationsTableViewController.swift in Sources */,
+				490BD7C91D4FE375005D0604 /* MapViewViewModel.swift in Sources */,
+				490BD7C11D4FE171005D0604 /* ISSLocation.swift in Sources */,
+				493348741D4FCA55003847CD /* MainStoryboard.swift in Sources */,
+				490BD7CB1D4FE382005D0604 /* LocationsTableViewViewModel.swift in Sources */,
+				490BD7C31D4FE359005D0604 /* MapViewViewController.swift in Sources */,
+				490BD7D61D5006A5005D0604 /* Scheduler.swift in Sources */,
+				490BD7E31D50EB3C005D0604 /* Notifier.swift in Sources */,
 				493348411D4FC752003847CD /* AppDelegate.swift in Sources */,
+				490BD7D11D4FF9F2005D0604 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +686,7 @@
 		};
 		493348661D4FC752003847CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FD41DF0A587778F4345382 /* Pods-ISSOverhead.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ISSOverhead/Info.plist;
@@ -410,6 +698,7 @@
 		};
 		493348671D4FC752003847CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A336D499914D5374692D8EB6 /* Pods-ISSOverhead.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ISSOverhead/Info.plist;
@@ -421,6 +710,7 @@
 		};
 		493348691D4FC752003847CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D72E9309C674CDB8C8B337A /* Pods-ISSOverheadTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ISSOverheadTests/Info.plist;
@@ -433,6 +723,7 @@
 		};
 		4933486A1D4FC752003847CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7600868B35BF338E43B10461 /* Pods-ISSOverheadTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ISSOverheadTests/Info.plist;
@@ -445,6 +736,7 @@
 		};
 		4933486C1D4FC752003847CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDB5D21237FEE4144175A9D /* Pods-ISSOverheadUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ISSOverheadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +748,7 @@
 		};
 		4933486D1D4FC752003847CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FBB8731B54B6288E95295F /* Pods-ISSOverheadUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ISSOverheadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +777,7 @@
 				493348671D4FC752003847CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493348681D4FC752003847CD /* Build configuration list for PBXNativeTarget "ISSOverheadTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +786,7 @@
 				4933486A1D4FC752003847CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4933486B1D4FC752003847CD /* Build configuration list for PBXNativeTarget "ISSOverheadUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +795,7 @@
 				4933486D1D4FC752003847CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

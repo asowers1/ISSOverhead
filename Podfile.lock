@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Argo (3.0.1)
+  - ASUserDefaults (0.2.1)
+  - Curry (2.3.1)
+  - Notify (0.2.1)
+  - Runes (3.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Argo
+  - ASUserDefaults
+  - Curry
+  - Notify
+  - Runes
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Argo: 22c5d62b7967020a641468c91dc9488bea9523b8
+  ASUserDefaults: 7426b374c3e1ed5f2fc273e092ed9c5dccc0be72
+  Curry: c8f65c8ade091aad5cb86f7b51dd408d698810ca
+  Notify: e3b42e3edd4df2d0c5c12bf8b311fd19f2fc20ce
+  Runes: ab2f892272d5165f64620f8086578b28cde98a02
+
+PODFILE CHECKSUM: 316d8865bde1dd33a0f6215928c30afe0537031d
+
+COCOAPODS: 1.0.1
